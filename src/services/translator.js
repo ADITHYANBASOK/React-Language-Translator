@@ -1,27 +1,4 @@
-// const GOOGLE_TRANSLATE_API = 'https://script.google.com/macros/s/AKfycbxPkKuJMSr0AB7XG15w8DrE_lJK8bT64r5sKw3ESjbSRlgpyIvUcPpQv8vrbJhiUzGHuw/exec';
 
-// export const translateText = async (text, sourceLang, targetLang) => {
-//   if (!text) return '';
-  
-//   try {
-//     const response = await fetch(`${GOOGLE_TRANSLATE_API}?text=${encodeURIComponent(text)}&source=${sourceLang}&target=${targetLang}`);
-    
-//     if (!response.ok) {
-//       throw new Error(`HTTP error! status: ${response.status}`);
-//     }
-    
-//     const data = await response.json();
-    
-//     if (data.error) {
-//       throw new Error(data.error);
-//     }
-    
-//     return data.text || '';
-//   } catch (error) {
-//     console.error('Translation error:', error);
-//     throw new Error('Translation failed. Please try again.');
-//   }
-// };
 
 const EXPRESS_SERVER_API = 'http://localhost:3000/translate';
 
