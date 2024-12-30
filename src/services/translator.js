@@ -1,6 +1,6 @@
 
 
-const EXPRESS_SERVER_API = 'http://localhost:3000/translate';
+const EXPRESS_SERVER_API = 'https://language-translator-backend-sigma.vercel.app/translate';
 
 export const translateText = async (text, sourceLang, targetLang) => {
   const source_lang=sourceLang;
